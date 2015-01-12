@@ -97,9 +97,7 @@ $(document).ready(function(){
 // ***********************************                                
 $(document).ready(function(){            
     $("body").backstretch([
-       "images/bg5.jpg",
-       "images/bg6.jpg",
-       "images/bg7.jpg"
+       "images/bg01.jpg"
     ], {duration: 5000, fade: 1000});
 });                              
 
