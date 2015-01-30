@@ -20,4 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  activerecord:
+    attributes:
+      message:
+        mtype: "Тип"
+        name: "Ваше имя"
+        email: "Ваш email"
+        phone: "Ваш телефон"
+        body: "Сообщение"
   hello: "Hello world"
+  step2_title: "Отправка сообщения"
+  save: "Отправить"
+  message_sent: "Ваше сообщение отправлено"
+  default_title: "Разработка сайтов и реклама в интернете | Бизнес-Оптимизация, ООО (Москва, Новосибирск)"

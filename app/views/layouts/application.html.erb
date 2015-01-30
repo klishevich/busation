@@ -6,7 +6,7 @@
 	<meta name="description" content="Профессиональная разработка сайтов и реклама в интернете от компании Бизнес-Оптимизация в Москве и Новосибирске">
 	<meta name="author" content="Клишевич Михаил">
 	<link rel="shortcut icon" href="favicon.ico">
-  <title>Разработка сайтов и реклама в интернете | Бизнес-Оптимизация, ООО (Москва, Новосибирск)</title>
+  <title><%= content_for?(:title) ? yield(:title) : t(:default_title) %></title>	
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
@@ -21,8 +21,25 @@
   
 </head>
 <body data-spy="scroll" data-target=".navbar-custom">
-
-<%= yield %>
-
+		<div class="preloader">
+			<div class="loader-item">
+				<%= image_tag("loading.gif", alt: "loader") %>
+			</div>
+		</div> 
+		
+		<!-- pattern -->
+		<div id="bg_pattern"></div>
+		<!-- ./pattern -->
+		
+		<%= yield %>
+		<!-- footer -->
+		<footer id="footer">
+			<div class="container">
+				<div class="text-center">
+					&copy; 2014 Бизнес-Оптимизация | busation.com
+				</div>
+			</div>
+		</footer>	
+		<!-- ./footer -->
 </body>
 </html>
