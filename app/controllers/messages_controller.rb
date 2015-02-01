@@ -8,6 +8,8 @@ class MessagesController < ApplicationController
   end
 
   def create
+    # mp = message_params
+    # mp[:mtype] = params[:type]
     @message = Message.new(message_params)
     if @message.save
       flash[:success] = t(:ok)
@@ -21,9 +23,9 @@ class MessagesController < ApplicationController
     @message = Message.find(params[:id])
   end
 
-  def edit
-  	@message=Message.find(params[:id])
-  end
+  # def edit
+  # 	@message=Message.find(params[:id])
+  # end
 
   # def update
   #   @message = Demand.find(params[:id])
@@ -38,6 +40,6 @@ class MessagesController < ApplicationController
   private
 
   def message_params
-    params.require(:message).permit(:type, :name, :email, :phone, :body)
+    params.require(:message).permit(:mtype, :name, :email, :phone, :body)
   end  	
 end
