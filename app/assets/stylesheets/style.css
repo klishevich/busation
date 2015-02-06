@@ -1153,7 +1153,11 @@ body.nopadd {
 	}
 }
 
-
+input.btn.btn-lg.my123 {
+	width: 100%;
+	height: 50px;
+	border-radius: 6px;
+}
 
 
 
