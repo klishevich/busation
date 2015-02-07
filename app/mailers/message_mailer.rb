@@ -1,9 +1,9 @@
 class MessageMailer < ActionMailer::Base
-  default from: "mans1st@yandex.ru"
+  default from: "info@busation.com"
 
   def new_notification(message)
     @message = message
-    mail to: "busation@gmail.com", subject: t(:new_message)
+    mail to: "m.klishevich@yandex.ru", subject: t(:new_message)
   end
 
   # def test_email1
