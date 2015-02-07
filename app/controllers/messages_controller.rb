@@ -12,7 +12,8 @@ class MessagesController < ApplicationController
     # mp[:mtype] = params[:type]
     @message = Message.new(message_params)
     if @message.save
-      flash[:success] = t(:ok)
+      @message.deliver
+      # flash[:success] = t(:ok)
       redirect_to @message
     else
       render 'new'
