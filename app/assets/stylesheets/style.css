@@ -41,6 +41,14 @@ a {
     transition: all .3s ease-in-out;
 }
 
+a#icon-box1 { width: 90px; }
+a#featured1 { width: 108px; }
+a#showcase1 { width: 94px; }
+a#team1 { width: 107px; }
+a#pricing1 { width: 78px; }
+a#grid1 { width: 124px; }
+a#contact1 { width: 116px; }
+
 a:active, a:visited {
 	color:#fff;
 }
