@@ -12,9 +12,10 @@ default: &default
 development:
   adapter: postgresql
   database: busation_dev
-  username: postgres
-  password: terra-123
+  username: first
+  password: asdfg
   host: localhost  
+#  port: 5433
 # development:
 #   <<: *default
 #   database: db/development.sqlite3

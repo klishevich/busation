@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'capistrano'
-gem 'rvm-capistrano'
+gem 'rvm-capistrano',  require: false
 gem 'unicorn'
 
 # Use ActiveModel has_secure_password
