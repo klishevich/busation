@@ -284,6 +284,23 @@ ul.unstyled {
 	padding:0;
 }
 
+.logo-title {
+	width: 300px;	
+	margin-left: 30px;
+	padding-top: 10px;	
+}
+
+.logo-title a{
+	font-size: 26px;
+	font-style: italic;
+	color: white;
+
+}
+
+.logo-title a:hover, .logo-title a:visited, .logo-title a:active, .logo-title a:link{
+	text-decoration: none;
+}
+
 .navbar-custom  .navbar-toggle .icon-bar {
 	background:#fff;
 	width:32px;
