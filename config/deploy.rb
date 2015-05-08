@@ -14,7 +14,7 @@ set :scm, "git"
 set :repository, "git@github.com:klishevich/#{application}.git"
 set :branch, "master"
 
-set :rvm_ruby_string, '2.1.2@busation'
+# set :rvm_ruby_string, '2.1.2@busation'
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
@@ -41,7 +41,7 @@ namespace :deploy do
   task :symlink_config, roles: :app do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
     run "ln -nfs #{shared_path}/config/secrets.yml #{release_path}/config/secrets.yml"
-    run "ln -nfs /home/#{user}/apps/#{application}/spree #{release_path}/public/spree"
+    # run "ln -nfs /home/#{user}/apps/#{application}/spree #{release_path}/public/spree"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
 
