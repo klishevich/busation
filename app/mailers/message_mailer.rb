@@ -1,5 +1,5 @@
 class MessageMailer < ActionMailer::Base
-  default from: "info@busation.com"
+  default from: "mans1st@yandex.ru"
 
   def new_notification(message)
     @message = message

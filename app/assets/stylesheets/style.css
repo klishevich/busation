@@ -49,6 +49,13 @@ a#pricing1 { width: 78px; }
 a#grid1 { width: 124px; }
 a#contact1 { width: 116px; }
 
+a#tasks { width: 194px; }
+a#price { width: 82px; }
+a#tech { width: 134px; }
+a#why { width: 162px; }
+a#contact { width: 115px; }
+
+
 a:active, a:visited {
 	color:#fff;
 }
