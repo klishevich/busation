@@ -4,5 +4,6 @@ class StaticPagesController < ApplicationController
   end
 
   def bpm
+  	@message = Message.new
   end
 end

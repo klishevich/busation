@@ -94,13 +94,19 @@ $(document).ready(function(){
 //
 //  Note :  make sure  use this  http://bootstrapwizard.info/Theme/Fullscreen/images/bg4.jpg"  when on server  but you can simply use  "images/bg1.jpg"  if you are on localhost
 //
-// ***********************************                                
-$(document).ready(function(){            
-    $("body").backstretch([
-       "/images/bg01.jpg"
-    ], {duration: 5000, fade: 1000});
-});                              
+// ***********************************                                                             
 
+// $(document).ready(function(){
+//     var gpath = $location.pathname.match(/[^\/]+$/)[0];
+//     var gpath = "";
+//     if (gpath = "bpm")
+//         gpath2 = "/images/bg-leopard-dark.jpg";
+//     else
+//         gpath2 = "/images/bg01.jpg";
+//     $("body").backstretch([
+//         gpath2
+//     ], {duration: 5000, fade: 1000});
+// }); 
 // ***********************************
 // magnificPopup
 // ***********************************  

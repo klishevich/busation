@@ -1,740 +1,750 @@
-		<!-- Navigation -->
-		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <div class="hidden-xs">
-				    <a class="navbar-brand" href="#"><%= image_tag("logo_bo2.png", alt: "logo", width: "36px") %></a>
-				    <div class="logo-title page-scroll"><a href="#slider">Бизнес-Оптимизация</a></div> 
-				  </div>
-				  <div class="visible-xs-block">
-				    <a class="navbar-brand" href="#"><%= image_tag("logo_bo2.png", alt: "logo", width: "36px") %></a>
-				    <div class="logo-title page-scroll"><a href="#slider">Busation</a></div> 
-				  </div>				  
-				</div>
+<% provide(:title, "Бизнес-Оптимизация: Разработка сайтов и реклама в интернете, Ruby on Rails, Москва, Новосибирск") %>
+<% provide(:description, "Профессиональная разработка сайтов на Ruby on Rails и реклама в интернете. Компания ООО Бизнес-Оптимизация в Москве и Новосибирске.") %>
+<% provide(:keywords, "Разработка сайтов, Ruby on Rails, реклама в интернете, контекстная реклама, Яндекс.Директ, Google.Adwords, Бизнес-Оптимизация, Москва, Новосибирск, ООО") %>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-nav">
-				  <ul class="nav navbar-nav navbar-right">
-					<li class="page-scroll"><a id="icon-box1" href="#icon-box">Услуги</a></li>
-					<li class="page-scroll"><a id="featured1" href="#featured">Клиенты</a></li>
-					<li class="page-scroll"><a id="showcase1" href="#showcase">Работы</a></li>
-					<li class="page-scroll"><a id="team1" href="#team">Команда</a></li>
-					<li class="page-scroll"><a id="pricing1" href="#pricing">Цены</a></li>
-					<li class="page-scroll"><a id="grid1" href="#grid">Афоризмы</a></li>
-					<li class="page-scroll"><a id="contact1" href="#contact">Контакты</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-		<!-- ./navigation -->			
-		<!-- Slider -->	
-		<div id="slider" class="fullSection">
-			<div class="container">
-				
-				<!-- fullscreen-slider -->
-				<div id="fullscreen-slider" class="carousel slide wow bounceIn showdelay4" data-ride="carousel">
-					<!-- Indicators -->
-					  <ol class="carousel-indicators">
-						<li data-target="#fullscreen-slider" data-slide-to="0" class="active"></li>
-						<li data-target="#fullscreen-slider" data-slide-to="1"></li>
-						<li data-target="#fullscreen-slider" data-slide-to="2"></li>
-					  </ol>
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <div class="hidden-xs">
+		    <a class="navbar-brand" href="#"><%= image_tag("logo_bo2.png", alt: "logo", width: "36px") %></a>
+		    <div class="logo-title page-scroll"><a href="#slider">Бизнес-Оптимизация</a></div> 
+		  </div>
+		  <div class="visible-xs-block">
+		    <a class="navbar-brand" href="#"><%= image_tag("logo_bo2.png", alt: "logo", width: "36px") %></a>
+		    <div class="logo-title page-scroll"><a href="#slider">Busation</a></div> 
+		  </div>				  
+		</div>
 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner">
-					<div class="item active">
-						<div class="slider-caption"> 
-							<i class="fa fa-cubes"></i>
-							<h2>BPM системы</h2>
-							<p>Внедрение систем для управление бизнес-процессами (Business Process Management Systems) для компаний малого и среднего бизнеса. Своя платформа BPM on Rails.</p>	
-							<a href="/bpm" class="btn btn-custom btn-lg">Подробнее о BPM</a>	
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="top-nav">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="page-scroll"><a id="icon-box1" href="#icon-box">Услуги</a></li>
+			<li class="page-scroll"><a id="featured1" href="#featured">Клиенты</a></li>
+			<li class="page-scroll"><a id="showcase1" href="#showcase">Работы</a></li>
+			<li class="page-scroll"><a id="team1" href="#team">Команда</a></li>
+			<li class="page-scroll"><a id="pricing1" href="#pricing">Цены</a></li>
+			<li class="page-scroll"><a id="grid1" href="#grid">Афоризмы</a></li>
+			<li class="page-scroll"><a id="contact1" href="#contact">Контакты</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+<!-- ./navigation -->			
+<!-- Slider -->	
+<div id="slider" class="fullSection">
+	<div class="container">
+		
+		<!-- fullscreen-slider -->
+		<div id="fullscreen-slider" class="carousel slide wow bounceIn showdelay4" data-ride="carousel">
+			<!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#fullscreen-slider" data-slide-to="0" class="active"></li>
+				<li data-target="#fullscreen-slider" data-slide-to="1"></li>
+				<li data-target="#fullscreen-slider" data-slide-to="2"></li>
+			  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+			<div class="item active">
+				<div class="slider-caption"> 
+					<i class="fa fa-life-ring"></i>
+					<h2>Разработка сайтов</h2>
+					<p>Разработка лэндингов, корпоративных сайтов, интернет-магазинов и сложных web-проектов с использованием современных open-source технологий (Ruby on Rails, Drupal). </p>								
+						<div class="page-scroll">
+						<a href="#" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#video-modal">Смотреть видео</a>	
 						</div>
-					</div>				  	
-					<div class="item">
-						<div class="slider-caption"> 
-							<i class="fa fa-life-ring"></i>
-							<h2>Разработка сайтов</h2>
-							<p>Разработка лэндингов, корпоративных сайтов, интернет-магазинов и сложных web-проектов с использованием современных open-source технологий (Ruby on Rails, Drupal). </p>								
-								<div class="page-scroll">
-								<a href="#" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#video-modal">Смотреть видео</a>	
-								</div>
-						</div>						
-					</div>
-					<div class="item">
-						<div class="slider-caption"> 
-							<i class="fa fa-paper-plane-o"></i>
-							<h2>Реклама в интернете</h2>
-							<p>Продвижение сайтов, SEO, контекстная реклама (Google.Adwords, Яндекс.Директ), реклама в соц. сетях (ВКонтакте, Facebook), баннерная реклама, партнерские программы, вирусный маркетинг.</p>								
-							<a href="#" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#video-modal">Смотреть видео</a>	
-						</div>
-					</div>
-				  </div>
-
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#fullscreen-slider" role="button" data-slide="prev">
-						<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
-						<span class="fa fa-chevron-left"></span>
-				  </a>
-				  <a class="right carousel-control" href="#fullscreen-slider" role="button" data-slide="next">
-						<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
-						<span class="fa fa-chevron-right"></span>
-				  </a>
-				</div>
-				<!-- fullscreen-slider -->
-				
-				<!-- video-modal -->					
-				<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel2">Видео о нас и наших услугах</h2>
-					  </div>
-					  <div class="modal-body">								
-							<!-- 16:9 aspect ratio -->
-							<div class="embed-responsive embed-responsive-16by9">
-							  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/J3JKfTqVA5I"></iframe>
-							</div>
-							<br>
-							<h2>Видео с нашего семинара</h2>
-							<div class="embed-responsive embed-responsive-16by9">
-							  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zmqOkGADovo"></iframe>
-							</div>
-							<br>
-					 </div>
-					</div>
-				  </div>
-				</div>
-				<!-- ./video-modal -->
-				
+				</div>						
 			</div>
+			<div class="item">
+				<div class="slider-caption"> 
+					<i class="fa fa-cubes"></i>
+					<h2>BPM системы</h2>
+					<p>Внедрение систем для управление бизнес-процессами (Business Process Management Systems) для компаний малого и среднего бизнеса. Своя платформа BPM on Rails.</p>	
+					<a href="/bpm" class="btn btn-custom btn-lg">Подробнее о BPM</a>	
+				</div>
+			</div>						
+			<div class="item">
+				<div class="slider-caption"> 
+					<i class="fa fa-paper-plane-o"></i>
+					<h2>Реклама в интернете</h2>
+					<p>Продвижение сайтов, SEO, контекстная реклама (Google.Adwords, Яндекс.Директ), реклама в соц. сетях (ВКонтакте, Facebook), баннерная реклама, партнерские программы, вирусный маркетинг.</p>								
+					<a href="#" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#video-modal">Смотреть видео</a>	
+				</div>
+			</div>			  						
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#fullscreen-slider" role="button" data-slide="prev">
+				<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+				<span class="fa fa-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#fullscreen-slider" role="button" data-slide="next">
+				<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+				<span class="fa fa-chevron-right"></span>
+		  </a>
+		</div>
+		<!-- fullscreen-slider -->
+		
+		<!-- video-modal -->					
+		<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title" id="myModalLabel2">Видео о нас и наших услугах</h2>
+			  </div>
+			  <div class="modal-body">								
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/J3JKfTqVA5I"></iframe>
+					</div>
+					<br>
+					<h2>Видео с нашего семинара</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zmqOkGADovo"></iframe>
+					</div>
+					<br>
+			 </div>
+			</div>
+		  </div>
+		</div>
+		<!-- ./video-modal -->
+		
+	</div>
+	
+</div>	
+<!-- ./Slider -->
 			
+<!-- Icon-box -->
+<div id="icon-box" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Услуги</h2>
+		</div>
+		
+		<div class="row">						
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInLeft showdelay2">
+					<i class="fa fa-life-ring"></i>
+					<h3>Разработка сайтов</h3>
+					<p>Разработка сайтов различной сложности: Посадочные страницы, Корпоративные сайты, Интернет-магазины. Используем самые лучшие технологии: Twitter Bootstrap, Drupal 7, Spree, Ruby on Rails!</p>	
+				</div>
+			</div>						
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInUp showdelay2">
+					<i class="fa fa-cubes"></i>
+					<h3>BPM системы</h3>
+					<p>Внедрение систем для управление бизнес-процессами (Business Process Management Systems) для компаний малого и среднего бизнеса. Своя платформа BPM on Rails. </p>
+					<a href="/bpm" class="btn btn-custom btn">Подробнее о BPM</a>
+				</div>
+			</div>					
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInRight showdelay2">
+					<i class="fa fa-paper-plane-o"></i>
+					<h3>Продвижение сайтов</h3>
+					<p>Контекстная реклама с Яндекс.Директом и Google.Adwords. Отчетность и постановка целей с Google.Analytics. Расчет конверсии и эффективности рекламного бюджета. SEO-оптимизация и повышение позиций в бесплатной выдаче поисковых систем.</p>							
+				</div>
+			</div>						
+		</div>
+		<!-- ./row -->
+		
+		<div class="row">						
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInLeft showdelay2">
+					<i class="fa fa-rocket"></i>
+					<h3>Разработка сложных web-проектов</h3>
+					<p>Делаем сложные web-проекты на лучшем open source фреймворке Ruby on Rails, json-сервера для мобильных приложений, одностраничные приложения на AngularJS.</p>
+				</div>
+			</div>						
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInUp showdelay2">
+					<i class="fa fa-plane"></i>
+					<h3>Продвижение в социальных сетях</h3>
+					<p>Реклама и продвижение товаров и услуг в социальных сетях: Facebook, YouTube, ВКонтакте, Twitter, Одноклассники, LinkedIn.</p>
+				</div>
+			</div>					
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInRight showdelay2">
+					<i class="fa fa-umbrella"></i>
+					<h3>Сопровождение проектов на Ruby on Rails</h3>
+					<p>Сопровождаем, дорабатываем, оптимизируем проекты на Ruby on Rails. Пишем тесты, используем CI. Оказываем услуги развертывания/переноса на другой хостинг. Консультируем, обучаем.</p>						
+				</div>
+			</div>						
+		</div>
+		<!-- ./row -->
+		
+	</div>
+			
+</div>
+<!-- ./Icon-box -->
+
+<!-- featured -->
+<div id="featured" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Наши клиенты</h2>
+		</div>
+		
+		<!-- featured-list -->	
+		<div id="featured-list" class="owl-carousel  wow fadeInUp showdelay2">
+	
+			<div class="featured-box item text-center">
+				<%= image_tag("_ran.jpg", class: "img-responsive img-thumbnail") %>
+
+				<div class="featured-info">								
+					<h3>Академик Фортов</h3>
+					<p>Президент РАН, Академик Фортов В.Е., Москва</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal1">Подробней</a>	
+				</div>
+			</div>
+			<div class="featured-box item text-center">
+				<%= image_tag("_uf.jpg", class: "img-responsive img-thumbnail") %>
+				<div class="featured-info">								
+					<h3>Юридическая фирма</h3>
+					<p>Юридическая фирма "Консалт-Гарант", Москва</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal2">Подробней</a>
+				</div>
+			</div>
+			<div class="featured-box item text-center">
+				<%= image_tag("_turandot.jpg", class: "img-responsive img-thumbnail") %>						
+				<div class="featured-info">								
+					<h3>Клубный дом</h3>
+					<p>Клубный дом TURANDOT RESIDENCE, Москва</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal3">Подробней</a>
+				</div>
+			</div>
+			<div class="featured-box item text-center">
+				<%= image_tag("_antok.jpg", class: "img-responsive img-thumbnail") %>						
+				<div class="featured-info">								
+					<h3>Некоммерческая организация</h3>
+					<p>Ассоциация научно-технических обществ корейцев, Москва</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal4">Подробней</a>
+				</div>
+			</div>					
+			<div class="featured-box item text-center">
+				<%= image_tag("_katren.jpg", class: "img-responsive img-thumbnail") %>						
+				<div class="featured-info">								
+					<h3>Экспедиторская компания</h3>
+					<p>Экспедиторская компания "Катрен-экспресс", Новосибирск</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal5">Подробней</a>	
+				</div>
+			</div>
+			<div class="featured-box item text-center">
+				<%= image_tag("_kuracija.jpg", class: "img-responsive img-thumbnail") %>						
+				<div class="featured-info">								
+					<h3>Медицинский центр</h3>
+					<p>Медицинский центр "Курация", Новосибирск</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal6">Подробней</a>	
+				</div>
+			</div>
+			<div class="featured-box item text-center">
+				<%= image_tag("_direkta.jpg", class: "img-responsive img-thumbnail") %>						
+				<div class="featured-info">								
+					<h3>Производственная компания</h3>
+					<p>Производственная компания "Директа", Новосибирск</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal7">Подробней</a>	
+				</div>
+			</div>
+			<div class="featured-box item text-center">
+				<%= image_tag("_elios.jpg", class: "img-responsive img-thumbnail") %>						
+				<div class="featured-info">								
+					<h3>Магазин цветов</h3>
+					<p>Магазин цветов "Элиос", Новосибирск</p>
+					<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal8">Подробней</a>	
+				</div>
+			</div>					
+		</div>
+		<!-- ./featured-list -->
+	
+		<!-- featured-modal -->					
+		<div class="modal fade" id="featured-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title" id="myModalLabel3">Академик Фортов В.Е.</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_fortov_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Для Академика Фортова в период предвыборной кампании в презединты РАН был разработан сайт. Была проведена рекламная кампания по продвижению сайта в интернете (контекстная реклама Яндекс.Директ, Google.Adwords, SEO-оптимизация сайта). </p>							
+			 </div>
+			</div>
+		  </div>
+		</div>
+		<!-- ./featured-modal -->
+		<div class="modal fade" id="featured-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title" id="myModalLabel3">Юридическая Фирма "Консалт-Гарант"</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_cgarant_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Для Юридической Фирмы "Консалт-Гарант" был портирован сайт со старой платформы на Drupal 7. Был разработан новый функционал: калькулятор стоимости услуг, автоматическое формирование счета на оплату, оплата на сайте по банковским картам, интернет-магазин кассовых аппаратов. Был подключен онлайн-консультант Jivosite и проведено обучение сотрудников. </p>							
+			 </div>
+			</div>
+		  </div>
+		</div>				
+		<div class="modal fade" id="featured-modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title" id="myModalLabel3">Клубный дом TURANDOT RESIDENCES</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_turandot_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Для девелоперской компании в сфере элитной недвижимости были проведены доработки сайта на Wordpress: доработана google-карта с отображением списка инфраструктурных объектов, актуализирована структура меню, доработана форма отправки сообщений. </p>							
+			 </div>
+			</div>
+		  </div>
+		</div>
+		<div class="modal fade" id="featured-modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title" id="myModalLabel3">Ассоциация научно-технических обществ корейцев</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_antok_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Для некоммерческой организации АНТОК был разработан сайт-визитка на Drupal. Был разработан личный кабинет члена организации на Ruby on Rails. В личном кабинете был реализован функционал: подача заявок на участие в конференциях и семинарах, заполнения анкеты члена ассоциации, подписка на новости и рассылка новостей на email, формирования печатной формы анкеты в формате pdf и выгрузка всех анкет в формате Excel, личный кабинет администратора. </p>							
+			 </div>
+			</div>
+		  </div>
 		</div>	
-		<!-- ./Slider -->
-					
-		<!-- Icon-box -->
-		<div id="icon-box" class="fullSection">
-			<div class="container">
-			
-				<div class="section-heading">
-					<h2>Услуги</h2>
-				</div>
-				
-				<div class="row">						
-					<div class="col-md-4 col-sm-4">
-						<div class="icon-box text-center wow fadeInLeft showdelay2">
-							<i class="fa fa-cubes"></i>
-							<h3>BPM системы</h3>
-							<p>Внедрение систем для управление бизнес-процессами (Business Process Management Systems) для компаний малого и среднего бизнеса. Своя платформа BPM on Rails. </p>
-							<a href="/bpm" class="btn btn-custom btn">Подробнее о BPM</a>	
-
-						</div>
-					</div>						
-					<div class="col-md-4 col-sm-4">
-						<div class="icon-box text-center wow fadeInUp showdelay2">
-							<i class="fa fa-life-ring"></i>
-							<h3>Разработка сайтов</h3>
-							<p>Разработка сайтов различной сложности: Посадочные страницы, Корпоративные сайты, Интернет-магазины. Используем самые лучшие технологии: Twitter Bootstrap, Drupal 7, Spree, Ruby on Rails!</p>							
-						</div>
-					</div>					
-					<div class="col-md-4 col-sm-4">
-						<div class="icon-box text-center wow fadeInRight showdelay2">
-							<i class="fa fa-paper-plane-o"></i>
-							<h3>Продвижение сайтов</h3>
-							<p>Контекстная реклама с Яндекс.Директом и Google.Adwords. Отчетность и постановка целей с Google.Analytics. Расчет конверсии и эффективности рекламного бюджета. SEO-оптимизация и повышение позиций в бесплатной выдаче поисковых систем.</p>							
-						</div>
-					</div>						
-				</div>
-				<!-- ./row -->
-				
-				<div class="row">						
-					<div class="col-md-4 col-sm-4">
-						<div class="icon-box text-center wow fadeInLeft showdelay2">
-							<i class="fa fa-rocket"></i>
-							<h3>Разработка сложных web-проектов</h3>
-							<p>Делаем сложные web-проекты на лучшем open source фреймворке Ruby on Rails, json-сервера для мобильных приложений, одностраничные приложения на AngularJS.</p>
-						</div>
-					</div>						
-					<div class="col-md-4 col-sm-4">
-						<div class="icon-box text-center wow fadeInUp showdelay2">
-							<i class="fa fa-plane"></i>
-							<h3>Продвижение в социальных сетях</h3>
-							<p>Реклама и продвижение товаров и услуг в социальных сетях: Facebook, YouTube, ВКонтакте, Twitter, Одноклассники, LinkedIn.</p>
-						</div>
-					</div>					
-					<div class="col-md-4 col-sm-4">
-						<div class="icon-box text-center wow fadeInRight showdelay2">
-							<i class="fa fa-umbrella"></i>
-							<h3>Сопровождение проектов на Ruby on Rails</h3>
-							<p>Сопровождаем, дорабатываем, оптимизируем проекты на Ruby on Rails. Пишем тесты, используем CI. Оказываем услуги развертывания/переноса на другой хостинг. Консультируем, обучаем.</p>						
-						</div>
-					</div>						
-				</div>
-				<!-- ./row -->
-				
+		<div class="modal fade" id="featured-modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title">Экспедиторская компания "Катрен-Экспресс"</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_katren_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Для экспедиторской компании "Катрен-Экспресс" был разработан сайт-визитка. Был разработан модуль - калькулятор расстояний, который позволяет рассчитывать стоимость перевозки и время в пути между городами. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords).</p>							
+			 </div>
 			</div>
-					
-		</div>
-		<!-- ./Icon-box -->
-		
-		<!-- featured -->
-		<div id="featured" class="fullSection">
-			<div class="container">
+		  </div>
+		</div>		
+		<div class="modal fade" id="featured-modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title">Медицинский центр "Курация"</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_kuracija_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Для медицинского центра был разработан сайт-визитка на Drupal 7. Были подключены модули: запись на прием, отображения новостей. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords). Были настроены цели в Google.Analytics.</p>							
+			 </div>
+			</div>
+		  </div>
+		</div>													
+		<div class="modal fade" id="featured-modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title">Производственная компания "Директа"</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_direkta_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Был разработан сайт-визитка на Drupal 7. Была проведена SEO-оптимизация и продвижение в бесплатном поиске. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords). Были настроены цели в Google.Analytics.</p>							
+			 </div>
+			</div>
+		  </div>
+		</div>	
+		<div class="modal fade" id="featured-modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h2 class="modal-title">Интернет-магазин цветов "Элиос"</h2>
+			  </div>
+			  <div class="modal-body">
+					<p><%= image_tag("_elios_site.jpg", class: "img-responsive img-full") %></p>
+					<hr>
+					<h3>Что было сделано</h3>
+					<p>Был разработан интернет-магазин на Drupal 6 с модулем Ubercart 2. Была проведена SEO-оптимизация и продвижение в бесплатном поиске. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords).</p>							
+			 </div>
+			</div>
+		  </div>
+		</div>				
+	</div>
 			
-				<div class="section-heading">
-					<h2>Наши клиенты</h2>
-				</div>
-				
-				<!-- featured-list -->	
-				<div id="featured-list" class="owl-carousel  wow fadeInUp showdelay2">
-			
-					<div class="featured-box item text-center">
-						<%= image_tag("_ran.jpg", class: "img-responsive img-thumbnail") %>
+</div>
+<!-- ./featured -->
 
-						<div class="featured-info">								
-							<h3>Академик Фортов</h3>
-							<p>Президент РАН, Академик Фортов В.Е., Москва</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal1">Подробней</a>	
-						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<%= image_tag("_uf.jpg", class: "img-responsive img-thumbnail") %>
-						<div class="featured-info">								
-							<h3>Юридическая фирма</h3>
-							<p>Юридическая фирма "Консалт-Гарант", Москва</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal2">Подробней</a>
-						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<%= image_tag("_turandot.jpg", class: "img-responsive img-thumbnail") %>						
-						<div class="featured-info">								
-							<h3>Клубный дом</h3>
-							<p>Клубный дом TURANDOT RESIDENCE, Москва</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal3">Подробней</a>
-						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<%= image_tag("_antok.jpg", class: "img-responsive img-thumbnail") %>						
-						<div class="featured-info">								
-							<h3>Некоммерческая организация</h3>
-							<p>Ассоциация научно-технических обществ корейцев, Москва</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal4">Подробней</a>
-						</div>
-					</div>					
-					<div class="featured-box item text-center">
-						<%= image_tag("_katren.jpg", class: "img-responsive img-thumbnail") %>						
-						<div class="featured-info">								
-							<h3>Экспедиторская компания</h3>
-							<p>Экспедиторская компания "Катрен-экспресс", Новосибирск</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal5">Подробней</a>	
-						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<%= image_tag("_kuracija.jpg", class: "img-responsive img-thumbnail") %>						
-						<div class="featured-info">								
-							<h3>Медицинский центр</h3>
-							<p>Медицинский центр "Курация", Новосибирск</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal6">Подробней</a>	
-						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<%= image_tag("_direkta.jpg", class: "img-responsive img-thumbnail") %>						
-						<div class="featured-info">								
-							<h3>Производственная компания</h3>
-							<p>Производственная компания "Директа", Новосибирск</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal7">Подробней</a>	
-						</div>
-					</div>
-					<div class="featured-box item text-center">
-						<%= image_tag("_elios.jpg", class: "img-responsive img-thumbnail") %>						
-						<div class="featured-info">								
-							<h3>Магазин цветов</h3>
-							<p>Магазин цветов "Элиос", Новосибирск</p>
-							<a href="#" class="btn btn-custom" data-toggle="modal" data-target="#featured-modal8">Подробней</a>	
-						</div>
-					</div>					
+<!-- showcase -->
+<div id="showcase" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Наши работы</h2>
+		</div>
+		
+		<div class="row">					
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_antok_site.jpg", class: "img-responsive img-thumbnail"), image_path("_antok_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
 				</div>
-				<!-- ./featured-list -->
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_katren_site.jpg", class: "img-responsive img-thumbnail"), image_path("_katren_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_veinproblem_site.jpg", class: "img-responsive img-thumbnail"), image_path("_veinproblem_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_elios_site.jpg", class: "img-responsive img-thumbnail"), image_path("_elios_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+		
+		<div class="row">		
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_direkta_site.jpg", class: "img-responsive img-thumbnail"), image_path("_direkta_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_slava_site.jpg", class: "img-responsive img-thumbnail"), image_path("_slava_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>							
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_cgarant_site.jpg", class: "img-responsive img-thumbnail"), image_path("_cgarant_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="pic wow fadeInUp showdelay2">
+					<%= link_to image_tag("_kuracija_site.jpg", class: "img-responsive img-thumbnail"), image_path("_kuracija_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+		
+	</div>
 			
-				<!-- featured-modal -->					
-				<div class="modal fade" id="featured-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel3">Академик Фортов В.Е.</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_fortov_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Для Академика Фортова в период предвыборной кампании в презединты РАН был разработан сайт. Была проведена рекламная кампания по продвижению сайта в интернете (контекстная реклама Яндекс.Директ, Google.Adwords, SEO-оптимизация сайта). </p>							
-					 </div>
+</div>
+<!-- ./showcase -->
+
+<!-- team -->
+<div id="team" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Наша команда</h2>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<div class="team-box">
+					<div class="team-image">
+						<%= image_tag("team1.jpg", class: "img-circle") %>
 					</div>
-				  </div>
-				</div>
-				<!-- ./featured-modal -->
-				<div class="modal fade" id="featured-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel3">Юридическая Фирма "Консалт-Гарант"</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_cgarant_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Для Юридической Фирмы "Консалт-Гарант" был портирован сайт со старой платформы на Drupal 7. Был разработан новый функционал: калькулятор стоимости услуг, автоматическое формирование счета на оплату, оплата на сайте по банковским картам, интернет-магазин кассовых аппаратов. Был подключен онлайн-консультант Jivosite и проведено обучение сотрудников. </p>							
-					 </div>
+					<div class="team-info">
+						<h3>Михаил</h3>
+						<b>Программист</b>
+						<p>Занимаюсь разработкой серверной (ruby on rails, php) и клиентской части (html, javascript, css) сайтов.  </p>
+						<ul class="team-social">
+							<li><a href="https://www.facebook.com/klishevich"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/busation"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="http://vk.com/klishevich"><i class="fa fa-vk"></i></a></li>
+						</ul>
 					</div>
-				  </div>
-				</div>				
-				<div class="modal fade" id="featured-modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel3">Клубный дом TURANDOT RESIDENCES</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_turandot_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Для девелоперской компании в сфере элитной недвижимости были проведены доработки сайта на Wordpress: доработана google-карта с отображением списка инфраструктурных объектов, актуализирована структура меню, доработана форма отправки сообщений. </p>							
-					 </div>
-					</div>
-				  </div>
-				</div>
-				<div class="modal fade" id="featured-modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title" id="myModalLabel3">Ассоциация научно-технических обществ корейцев</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_antok_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Для некоммерческой организации АНТОК был разработан сайт-визитка на Drupal. Был разработан личный кабинет члена организации на Ruby on Rails. В личном кабинете был реализован функционал: подача заявок на участие в конференциях и семинарах, заполнения анкеты члена ассоциации, подписка на новости и рассылка новостей на email, формирования печатной формы анкеты в формате pdf и выгрузка всех анкет в формате Excel, личный кабинет администратора. </p>							
-					 </div>
-					</div>
-				  </div>
-				</div>	
-				<div class="modal fade" id="featured-modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title">Экспедиторская компания "Катрен-Экспресс"</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_katren_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Для экспедиторской компании "Катрен-Экспресс" был разработан сайт-визитка. Был разработан модуль - калькулятор расстояний, который позволяет рассчитывать стоимость перевозки и время в пути между городами. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords).</p>							
-					 </div>
-					</div>
-				  </div>
-				</div>		
-				<div class="modal fade" id="featured-modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title">Медицинский центр "Курация"</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_kuracija_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Для медицинского центра был разработан сайт-визитка на Drupal 7. Были подключены модули: запись на прием, отображения новостей. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords). Были настроены цели в Google.Analytics.</p>							
-					 </div>
-					</div>
-				  </div>
 				</div>													
-				<div class="modal fade" id="featured-modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title">Производственная компания "Директа"</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_direkta_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Был разработан сайт-визитка на Drupal 7. Была проведена SEO-оптимизация и продвижение в бесплатном поиске. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords). Были настроены цели в Google.Analytics.</p>							
-					 </div>
-					</div>
-				  </div>
-				</div>	
-				<div class="modal fade" id="featured-modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-				  <div class="modal-dialog modal-lg">
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<h2 class="modal-title">Интернет-магазин цветов "Элиос"</h2>
-					  </div>
-					  <div class="modal-body">
-							<p><%= image_tag("_elios_site.jpg", class: "img-responsive img-full") %></p>
-							<hr>
-							<h3>Что было сделано</h3>
-							<p>Был разработан интернет-магазин на Drupal 6 с модулем Ubercart 2. Была проведена SEO-оптимизация и продвижение в бесплатном поиске. Была проведена рекламная кампания (Яндекс.Директ, Google.Adwords).</p>							
-					 </div>
-					</div>
-				  </div>
-				</div>				
 			</div>
-					
-		</div>
-		<!-- ./featured -->
-		
-		<!-- showcase -->
-		<div id="showcase" class="fullSection">
-			<div class="container">
 			
-				<div class="section-heading">
-					<h2>Наши работы</h2>
-				</div>
-				
-				<div class="row">					
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_antok_site.jpg", class: "img-responsive img-thumbnail"), image_path("_antok_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_katren_site.jpg", class: "img-responsive img-thumbnail"), image_path("_katren_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_veinproblem_site.jpg", class: "img-responsive img-thumbnail"), image_path("_veinproblem_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_elios_site.jpg", class: "img-responsive img-thumbnail"), image_path("_elios_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-				</div>
-				<!-- /row -->
-				
-				<div class="row">		
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_direkta_site.jpg", class: "img-responsive img-thumbnail"), image_path("_direkta_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_slava_site.jpg", class: "img-responsive img-thumbnail"), image_path("_slava_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>							
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_cgarant_site.jpg", class: "img-responsive img-thumbnail"), image_path("_cgarant_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="pic wow fadeInUp showdelay2">
-							<%= link_to image_tag("_kuracija_site.jpg", class: "img-responsive img-thumbnail"), image_path("_kuracija_site.jpg"), class: "gallery-item" %><div class="img_overlay"></div></a>
-						</div>
-					</div>
-				</div>
-				<!-- /row -->
-				
-			</div>
-					
-		</div>
-		<!-- ./showcase -->
-
-		<!-- team -->
-		<div id="team" class="fullSection">
-			<div class="container">
-			
-				<div class="section-heading">
-					<h2>Наша команда</h2>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<div class="team-box">
-							<div class="team-image">
-								<%= image_tag("team1.jpg", class: "img-circle") %>
-							</div>
-							<div class="team-info">
-								<h3>Михаил</h3>
-								<b>Программист</b>
-								<p>Занимаюсь разработкой серверной (ruby on rails, php) и клиентской части (html, javascript, css) сайтов.  </p>
-								<ul class="team-social">
-									<li><a href="https://www.facebook.com/klishevich"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="https://twitter.com/busation"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="http://vk.com/klishevich"><i class="fa fa-vk"></i></a></li>
-								</ul>
-							</div>
-						</div>													
-					</div>
-					
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<div class="team-box">
-							<div class="team-image">
-								<%= image_tag("team2.jpg", class: "img-circle") %>
-								
-							</div>
-							<div class="team-info">
-								<h3>Мария</h3>
-								<b>Специалист по продвижению</b>
-								<p>Занимаюсь продвижением сайтов (SEO-оптимизация), рекламой в интернете (Яндекс.Директ, Google.Adwords) и в социальных сетях (Facebook, ВКонтакте).</p>
-								<ul class="team-social">
-									<li><a href="http://vk.com/id95323247"><i class="fa fa-vk"></i></a></li>
-								</ul>
-							</div>
-						</div>													
-					</div>
-					
-				</div>
-				<!-- /row -->
-				
-				<div class="row">
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<div class="team-box">
-							<div class="team-image">
-								<%= image_tag("team3.jpg", class: "img-circle") %>					
-							</div>
-							<div class="team-info">
-								<h3>Татьяна</h3>
-								<b>Веб-дизайнер</b>
-								<p>Разрабатываю красивый и функциональный дизайн и корпоративный стиль (логотипы, баннеры, визитки, бланки), рисую.</p>
-								<ul class="team-social">
-									<li><a href="https://vk.com/id9711991"><i class="fa fa-vk"></i></a></li>
-								</ul>
-							</div>
-						</div>													
-					</div>
-					
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<div class="team-box">
-							<div class="team-image">
-								<%= image_tag("team4.jpg", class: "img-circle") %>
-								
-							</div>
-							<div class="team-info">
-								<h3>Максим</h3>
-								<b>Руководитель проектов</b>
-								<p>Встречаюсь с клиентами в Москве, общаюсь, обучаю, помогаю найти оптимальное решение. Обеспечиваю исполнение задач в срок.</p>
-								<ul class="team-social">
-									<li><a href="https://www.facebook.com/maxim.klishevich"><i class="fa fa-facebook"></i></a></li>
-								</ul>
-							</div>
-						</div>													
-					</div>
-					
-				</div>
-				<!-- /row -->
-
-			</div>
-					
-		</div>
-		<!-- ./team -->
-
-		<!-- pricing -->
-		<div id="pricing" class="fullSection">
-			<div class="container">
-			
-				<div class="section-heading">
-					<h2>Цены</h2>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<div class="price-box text-center">	
-							<div class="price-title">
-								ВНЕДРЕНИЕ BPM-СИСТЕМЫ	
-								<span>50 т.р.</span>
-							</div>
-							<ul class="unstyled price-list">
-								<li>Автоматизация одного процесса под ключ, обучение и внедрение</li>
-								<li>Цена указана без учета интеграции для количества участников не более 5</li>								
-							</ul>
-							<div class="price-action">
-								<a href="/messages/new?type=bpm" class="btn btn-custom">Заказать</a>	
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<div class="price-box text-center">	
-							<div class="price-title">
-								РАЗРАБОТКА САЙТА	
-								<span>30 т.р.</span>
-							</div>
-							<ul class="unstyled price-list">
-								<li>Указана стоимость разработки сайта-визитки с типовым дизайном</li>
-								<li>Для сложных проектов цена рассчитывается индивидуально</li>
-							</ul>
-							<div class="price-action">
-								<a href="/messages/new?type=site" class="btn btn-custom">Заказать</a>	
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<div class="price-box text-center">	
-							<div class="price-title">
-								ПРОДВИЖЕНИЕ САЙТА	
-								<span>10 т.р.</span>
-							</div>
-							<ul class="unstyled price-list">
-								<li>Указана стоимость Яндекс.Директа с бюджетом рекламной компании - 8 т.р.</li>
-								<li>И оплаты работ по ведению рекламной компании в течение месяца - 2 т.р.</li>
-							</ul>
-							<div class="price-action">
-								<a href="/messages/new?type=seo" class="btn btn-custom">Заказать</a>	
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-						<div class="price-box text-center">	
-							<div class="price-title">
-								СОПРОВОЖДЕНИЕ САЙТА	
-								<span>5 т.р.</span>
-							</div>
-							<ul class="unstyled price-list">
-								<li>Указана стоимость сопровождения сайта в течение месяца</li>
-								<li>При условии что объем работ не превышает 5 чел.-часов</li>
-							</ul>
-							<div class="price-action">
-								<a href="/messages/new?type=support" class="btn btn-custom">Заказать</a>	
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				<!-- /row -->
-				
-				
-
-			</div>
-					
-		</div>
-		<!-- ./pricing -->
-
-		<!-- grid -->
-		<div id="grid" class="fullSection">
-			<div class="container">
-			
-				<div class="section-heading">
-					<h2>Афоризмы</h2>
-				</div>
-
-				<div class="row">
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Конфуций</h3>							
-						<p>Не поговорить с человеком, который достоин разговора, значит потерять человека. А говорить с человеком, который разговора не достоин — значит терять слова. Мудрый не теряет ни людей, ни слов.</p>
-					</div>
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Генри Форд</h3>
-						<p>Каждый, кто перестает учиться — стареет, неважно в 20 или 80 лет, а любой другой, кто продолжает учиться остается молодым. Самое главное в жизни – это сохранить мозг молодым. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Сократ</h3>							
-						<p>Природа наделила нас двумя ушами, двумя глазами, но лишь одним языком, дабы мы смотрели и слушали больше, чем говорили.</p>
-					</div>
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Пифагор</h3>
-						<p>Не гоняйся за счастьем: оно всегда находится в тебе самом. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Confucius Says</h3>							
-						<p>A man of honor helps others to realize their best aims, but not their worst desires. A petty-minded man does the opposite.</p>
-					</div>
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Jimi Hendrix</h3>
-						<p>I'm the one that's got to die when it's time for me to die, so let me live my life the way I want to.</p>
-					</div>					
-				</div>		
-				<div class="row">
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Mark Twain</h3>							
-						<p>Good friends, good books, and a sleepy conscience: this is the ideal life.</p>
-					</div>
-					<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-						<h3>Albert Einstein</h3>
-						<p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
-					</div>
-				</div>							
-				<!-- /row -->
-									
-			</div>
-					
-		</div>
-		<!-- ./grid -->
-		
-		<!-- contact -->
-		<div id="contact" class="fullSection">
-			<div class="container">
-			
-				<div class="section-heading">
-					<h2>Контакты</h2>
-				</div>
-				
-				<div class="row">
-					<!-- contact form -->
-					<div class="col-md-6 col-sm-6">
-						<div class="contact-form  wow fadeInLeft showdelay2">
-						<%= render 'messages/form' %>
-						<div class="clearfix"></div>
-						</div>
-					</div>
-					<!-- ./contact form -->
-					
-					<!-- address -->
-					<div class="col-md-6 col-sm-6">
-						<div class="address  wow fadeInRight showdelay2">
-							<h3>Связь с нами</h3>
-							<ul class="unstyled">
-								<li>ООО "Бизнес-Оптимизация"</li>
-								<li><i class="fa fa-envelope"></i>info@busation.com</li>
-								<li><i class="fa fa-skype"></i>Skype: busation</li>
-								<li><i class="fa fa-phone"></i>Тел. в Москве: +7 916 592 6645</li>
-								<li><i class="fa fa-phone"></i>Тел. в Новосибирске: +7 913 923 8446</li>								
-							</ul>
-						</div>
-						<div class="social wow fadeInRight showdelay2">
-							<h3>Мы в соц. сетях</h3>
-							<ul class="social-link">
-								<li><a href="https://www.facebook.com/klishevich"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/busation"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/busation"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://plus.google.com/+busation/posts"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<div class="team-box">
+					<div class="team-image">
+						<%= image_tag("team2.jpg", class: "img-circle") %>
 						
 					</div>
-					<!-- ./address -->
-					
-				</div>
-				<!-- /row -->
-									
+					<div class="team-info">
+						<h3>Мария</h3>
+						<b>Специалист по продвижению</b>
+						<p>Занимаюсь продвижением сайтов (SEO-оптимизация), рекламой в интернете (Яндекс.Директ, Google.Adwords) и в социальных сетях (Facebook, ВКонтакте).</p>
+						<ul class="team-social">
+							<li><a href="http://vk.com/id95323247"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>													
 			</div>
-					
-		</div>
-		<!-- ./contact -->
 			
+		</div>
+		<!-- /row -->
+		
+		<div class="row">
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<div class="team-box">
+					<div class="team-image">
+						<%= image_tag("team3.jpg", class: "img-circle") %>					
+					</div>
+					<div class="team-info">
+						<h3>Татьяна</h3>
+						<b>Веб-дизайнер</b>
+						<p>Разрабатываю красивый и функциональный дизайн и корпоративный стиль (логотипы, баннеры, визитки, бланки), рисую.</p>
+						<ul class="team-social">
+							<li><a href="https://vk.com/id9711991"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>													
+			</div>
+			
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<div class="team-box">
+					<div class="team-image">
+						<%= image_tag("team4.jpg", class: "img-circle") %>
+						
+					</div>
+					<div class="team-info">
+						<h3>Максим</h3>
+						<b>Руководитель проектов</b>
+						<p>Встречаюсь с клиентами в Москве, общаюсь, обучаю, помогаю найти оптимальное решение. Обеспечиваю исполнение задач в срок.</p>
+						<ul class="team-social">
+							<li><a href="https://www.facebook.com/maxim.klishevich"><i class="fa fa-facebook"></i></a></li>
+						</ul>
+					</div>
+				</div>													
+			</div>
+			
+		</div>
+		<!-- /row -->
+
+	</div>
+			
+</div>
+<!-- ./team -->
+
+<!-- pricing -->
+<div id="pricing" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Цены</h2>
+		</div>
+		
+		<div class="row">
+			
+			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
+				<div class="price-box text-center">	
+					<div class="price-title">
+						РАЗРАБОТКА САЙТА	
+						<span>30 т.р.</span>
+					</div>
+					<ul class="unstyled price-list">
+						<li>Указана стоимость разработки сайта-визитки с типовым дизайном</li>
+						<li>Для сложных проектов цена рассчитывается индивидуально</li>
+					</ul>
+					<div class="price-action">
+						<a href="/messages/new?type=site" class="btn btn-custom">Заказать</a>	
+					</div>
+				</div>
+			</div>
+								
+			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
+				<div class="price-box text-center">	
+					<div class="price-title">
+						ВНЕДРЕНИЕ BPM-СИСТЕМЫ	
+						<span>50 т.р.</span>
+					</div>
+					<ul class="unstyled price-list">
+						<li>Автоматизация одного процесса под ключ, обучение и внедрение</li>
+						<li>Цена указана без учета интеграции для количества участников не более 5</li>								
+					</ul>
+					<div class="price-action">
+						<a href="/messages/new?type=bpm" class="btn btn-custom">Заказать</a>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
+				<div class="price-box text-center">	
+					<div class="price-title">
+						ПРОДВИЖЕНИЕ САЙТА	
+						<span>10 т.р.</span>
+					</div>
+					<ul class="unstyled price-list">
+						<li>Указана стоимость Яндекс.Директа с бюджетом рекламной компании - 8 т.р.</li>
+						<li>И оплаты работ по ведению рекламной компании в течение месяца - 2 т.р.</li>
+					</ul>
+					<div class="price-action">
+						<a href="/messages/new?type=seo" class="btn btn-custom">Заказать</a>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
+				<div class="price-box text-center">	
+					<div class="price-title">
+						СОПРОВОЖДЕНИЕ САЙТА	
+						<span>5 т.р.</span>
+					</div>
+					<ul class="unstyled price-list">
+						<li>Указана стоимость сопровождения сайта в течение месяца</li>
+						<li>При условии что объем работ не превышает 5 чел.-часов</li>
+					</ul>
+					<div class="price-action">
+						<a href="/messages/new?type=support" class="btn btn-custom">Заказать</a>	
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- /row -->
+		
+		
+
+	</div>
+			
+</div>
+<!-- ./pricing -->
+
+<!-- grid -->
+<div id="grid" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Афоризмы</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Конфуций</h3>							
+				<p>Не поговорить с человеком, который достоин разговора, значит потерять человека. А говорить с человеком, который разговора не достоин — значит терять слова. Мудрый не теряет ни людей, ни слов.</p>
+			</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Генри Форд</h3>
+				<p>Каждый, кто перестает учиться — стареет, неважно в 20 или 80 лет, а любой другой, кто продолжает учиться остается молодым. Самое главное в жизни – это сохранить мозг молодым. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Сократ</h3>							
+				<p>Природа наделила нас двумя ушами, двумя глазами, но лишь одним языком, дабы мы смотрели и слушали больше, чем говорили.</p>
+			</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Пифагор</h3>
+				<p>Не гоняйся за счастьем: оно всегда находится в тебе самом. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Confucius Says</h3>							
+				<p>A man of honor helps others to realize their best aims, but not their worst desires. A petty-minded man does the opposite.</p>
+			</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Jimi Hendrix</h3>
+				<p>I'm the one that's got to die when it's time for me to die, so let me live my life the way I want to.</p>
+			</div>					
+		</div>		
+		<div class="row">
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Mark Twain</h3>							
+				<p>Good friends, good books, and a sleepy conscience: this is the ideal life.</p>
+			</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<h3>Albert Einstein</h3>
+				<p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p>
+			</div>
+		</div>							
+		<!-- /row -->
+							
+	</div>
+			
+</div>
+<!-- ./grid -->
+
+<!-- contact -->
+<div id="contact" class="fullSection">
+	<div class="container">
+	
+		<div class="section-heading">
+			<h2>Контакты</h2>
+		</div>
+		
+		<div class="row">
+			<!-- contact form -->
+			<div class="col-md-6 col-sm-6">
+				<div class="contact-form  wow fadeInLeft showdelay2">
+				<%= render 'messages/form' %>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+			<!-- ./contact form -->
+			
+			<!-- address -->
+			<div class="col-md-6 col-sm-6">
+				<div class="address  wow fadeInRight showdelay2">
+					<h3>Связь с нами</h3>
+					<ul class="unstyled">
+						<li>ООО "Бизнес-Оптимизация"</li>
+						<li><i class="fa fa-envelope"></i>info@busation.com</li>
+						<li><i class="fa fa-skype"></i>Skype: busation</li>
+						<li><i class="fa fa-phone"></i>Тел. в Москве: +7 916 592 6645</li>
+						<li><i class="fa fa-phone"></i>Тел. в Новосибирске: +7 913 923 8446</li>								
+					</ul>
+				</div>
+				<div class="social wow fadeInRight showdelay2">
+					<h3>Мы в соц. сетях</h3>
+					<ul class="social-link">
+						<li><a href="https://www.facebook.com/klishevich"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/busation"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/busation"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://plus.google.com/+busation/posts"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- ./address -->
+			
+		</div>
+		<!-- /row -->
+							
+	</div>
+			
+</div>
+<!-- ./contact -->
+<script>
+// $(document).ready(function(){            
+//     $("body").backstretch([
+//        "/images/bg01.jpg"
+//     ], {duration: 5000, fade: 1000});
+// }); 
+</script>
 
