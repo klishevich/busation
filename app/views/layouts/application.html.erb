@@ -11,6 +11,23 @@
 	<%= stylesheet_link_tag    'application', media: 'all' %>
 	<%= javascript_include_tag 'application' %>
 	<%= csrf_meta_tags %>
+	<% if current_page?(:controller => 'static_pages', :action => 'bpm') %>
+	  <script>
+	  $(document).ready(function(){            
+	  	$("body").backstretch([
+	  		"/images/bg-leopard-dark.jpg"
+	  		], {duration: 5000, fade: 1000});
+	  }); 
+	  </script>
+	<% else %>
+		<script>
+		$(document).ready(function(){            
+			$("body").backstretch([
+				"/images/bg01.jpg"
+				], {duration: 5000, fade: 1000});
+		}); 
+		</script>
+	<% end %>
 	<!-- Google Font -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -36,7 +53,7 @@
 		<footer id="footer">
 			<div class="container">
 				<div class="text-center">
-					&copy; 2011-2015 Бизнес-Оптимизация, ООО | busation.com
+					&copy; 2011-2015 Бизнес-Оптимизация, ООО | www.busation.com
 				</div>
 			</div>
 		</footer>	
