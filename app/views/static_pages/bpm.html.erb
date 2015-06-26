@@ -1,7 +1,7 @@
 <% provide(:title, "BPM on Rails - система управления бизнес-процессами") %>
 <% provide(:keywords, "bpm on rails, система, управление, бизнес-процессы, автоматизация, оптимизация, москва, новосибирск, смп, малый, средний, бизнес") %>
 <% provide(:description, "Внедрение системы управления бизнес-процессами в Москве и Новосибирске. BPM on Rails - лучшая система для оптимизации, автоматизации и управления бизнес-процессами для малого и среднего бизнеса.") %>
-
+<span itemscope itemtype="http://schema.org/LocalBusiness">
 <%= render 'shared/navigation_bpm' %>
   
 <div id="home2" class="fullSection">
@@ -289,11 +289,19 @@
         <div class="address  wow fadeInRight showdelay2">
           <h3>Связь с нами</h3>
           <ul class="unstyled">
-            <li>ООО "Бизнес-Оптимизация"</li>
-            <li><i class="fa fa-envelope"></i>info@busation.com</li>
+            <li itemprop="name">ООО "Бизнес-Оптимизация"</li>
+            <li itemprop="email"><i class="fa fa-envelope"></i>info@busation.com</li>
             <li><i class="fa fa-skype"></i>Skype: busation</li>
-            <li><i class="fa fa-phone"></i>Тел. в Москве: +7 916 592 6645</li>
-            <li><i class="fa fa-phone"></i>Тел. в Новосибирске: +7 913 923 8446</li>                
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <li><i class="fa fa-phone"></i>
+                <span itemprop="addressLocality">Москва</span>: 
+                <span itemprop="telephone">+7 916 592 6645</span>
+              </li>
+              <li><i class="fa fa-phone"></i>Новосибирск: +7 913 923 8446</li> 
+            </span>
+            <li><i class="fa fa-hand-o-right"></i>
+              <span itemprop="url">www.busation.com</span>
+            </li> 
           </ul>
         </div>
         <div class="social wow fadeInRight showdelay2">
@@ -313,4 +321,5 @@
     <!-- /row -->
               
   </div>      
-</div> 
+</div>
+</span>
