@@ -84,14 +84,19 @@
         <div class="row">
           
           <div class="col-md-4 col-sm-4 wow fadeInUp showdelay2">
-            <div class="price-box text-center"> 
+            <div class="price-box text-center" itemscope itemtype="http://schema.org/Product"> 
               <div class="price-title">
-                ОДИН ПРОЦЕСС 
-                <span>60 т.р.</span>
+                ОДИН ПРОЦЕСС
+                <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <span>60 т.р.</span>
+                  <meta itemprop="price" content="60000.00">
+                  <meta itemprop="priceCurrency" content="RUB">
+                  <link itemprop="availability" href="http://schema.org/InStock">
+                </span>
               </div>
               <ul class="unstyled price-list">
-                <li>Автоматизация одного процесса под ключ, обучение и внедрение</li>
-                <li>Цена указана без учета интеграции для количества участников не более 5</li>
+                <li><span itemprop="name">Внедрение системы управления бизнес-процессами</span>, обучение и внедрение</li>
+                <li><span itemprop="description">Цена указана без учета интеграции для количества участников не более 5</span></li>
               </ul>
             </div>
           </div>
