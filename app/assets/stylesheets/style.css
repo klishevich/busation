@@ -65,6 +65,11 @@ a#tech { width: 134px; }
 a#why { width: 162px; }
 a#contact { width: 115px; }
 
+#rekv-modal-block {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 
 a:active, a:visited {
 	color:#fff;
