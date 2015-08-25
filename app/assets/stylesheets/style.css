@@ -372,6 +372,11 @@ ul.unstyled {
 	font-size:130px;
 }
 
+#fullscreen-slider .slider-caption h1 {
+	font-size:60px;
+	margin-bottom:30px;
+}
+
 #fullscreen-slider .slider-caption h2 {
 	font-size:60px;
 	margin-bottom:30px;
@@ -403,6 +408,10 @@ ul.unstyled {
 	
 	#fullscreen-slider .slider-caption  i{ 
 		font-size:80px;
+	}
+
+	#fullscreen-slider .slider-caption h1 {
+		font-size:36px;
 	}
 	
 	#fullscreen-slider .slider-caption h2 {
