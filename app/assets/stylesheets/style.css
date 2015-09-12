@@ -47,6 +47,12 @@ a {
   margin-bottom: 40px;
 }
 
+@media (max-width:767px) {
+	#home2 h1 {
+		font-size:36px;
+	}	
+}
+
 #home2 p {
   margin-bottom: 20px;	
 }
@@ -57,13 +63,14 @@ a#showcase1 { width: 94px; }
 a#team1 { width: 107px; }
 a#pricing1 { width: 78px; }
 a#grid1 { width: 124px; }
-a#contact1 { width: 116px; }
+a#contact1 { width: 110px; }
 
 a#tasks { width: 194px; }
 a#price { width: 82px; }
 a#tech { width: 134px; }
 a#why { width: 162px; }
-a#contact { width: 115px; }
+a#contact { width: 110px; }
+a#blog { width: 82px; }
 
 #rekv-modal-block {
 	padding-top: 10px;
