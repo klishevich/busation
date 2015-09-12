@@ -65,12 +65,13 @@ a#pricing1 { width: 78px; }
 a#grid1 { width: 124px; }
 a#contact1 { width: 110px; }
 
-a#tasks { width: 194px; }
+a#tasks { width: 105px; }
 a#price { width: 82px; }
 a#tech { width: 134px; }
 a#why { width: 162px; }
 a#contact { width: 110px; }
 a#blog { width: 82px; }
+a#ui { width: 134px; }
 
 #rekv-modal-block {
 	padding-top: 10px;
@@ -319,6 +320,19 @@ ul.unstyled {
 	padding-top: 10px;	
 }
 
+.logo-title2 {
+	width: 180px;	
+	margin-left: 30px;
+	padding-top: 10px;	
+}
+
+.logo-title2 a{
+	font-size: 26px;
+	font-style: italic;
+	color: white;
+
+}
+
 .logo-title a{
 	font-size: 26px;
 	font-style: italic;
@@ -327,6 +341,10 @@ ul.unstyled {
 }
 
 .logo-title a:hover, .logo-title a:visited, .logo-title a:active, .logo-title a:link{
+	text-decoration: none;
+}
+
+.logo-title2 a:hover, .logo-title2 a:visited, .logo-title2 a:active, .logo-title2 a:link{
 	text-decoration: none;
 }
 
