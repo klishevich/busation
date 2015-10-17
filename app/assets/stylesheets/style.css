@@ -78,6 +78,9 @@ a#ui { width: 134px; }
 	padding-bottom: 10px;
 }
 
+#rekv-modal-block a {
+	text-decoration: underline;
+}
 
 a:active, a:visited {
 	color:#fff;
