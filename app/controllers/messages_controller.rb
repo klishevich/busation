@@ -1,6 +1,7 @@
 class MessagesController < ApplicationController
   def index
-    @messages=Message.all
+    @messages=Message.last(20).reverse
+    render layout: "admin_layout"
   end
 
   def new

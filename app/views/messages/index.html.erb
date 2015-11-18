@@ -1,0 +1,27 @@
+<h3>Админка: последние сообщения</h3>
+<div class="span8">
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>mtype</th>
+      <th>name</th>
+      <th>email</th>
+      <th>phone</th>
+      <th>body</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @messages.each do |msg| %>
+    <tr>
+      <td><%= msg.id %></td>
+      <td><%= msg.mtype %></td>
+      <td><%= msg.name %></td>
+      <td><%= link_to msg.email, "mailto:#{msg.email}" %></td>
+      <td><%= msg.phone %></td>
+      <td><%= msg.body %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+</div>
