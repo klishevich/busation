@@ -1,3 +1,4 @@
+#encoding: utf-8
 class Message < ActiveRecord::Base
   # validates :mtype, presence: true
   validates :name, presence: true
@@ -12,7 +13,7 @@ class Message < ActiveRecord::Base
   end
 
   def check_spam
-    if body.include? "href" or body.include? I18n.t('prostitut')
+    if body.include? "href" or body.include? I18n.t('prostitut') or body.include? I18n.t('metro')
       errors.add(:body, :spam)
     end
   end
