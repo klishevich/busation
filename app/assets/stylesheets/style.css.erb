@@ -147,7 +147,7 @@ ul.unstyled {
 }
 
 #bg_pattern { 
-	background-image: url(/images/bg_pattern.png); 
+	background-image: url(<%= asset_path 'bg_pattern.png' %>);
 	position: fixed; 
 	opacity: 0.8; 
 	left: 0px; 
@@ -158,7 +158,7 @@ ul.unstyled {
 }
 
 .bg-static {
-	background: url(/images/bg1.jpg) no-repeat center center fixed; 
+	background: url(<%= asset_path 'bg1.jpg' %>) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -672,7 +672,7 @@ a .img_overlay {
 	height: 100%;
 	background: #333;
 	background-color: rgba(0, 0, 0, 0.6);
-	background-image: url(/images/zoom.png);
+	background-image: url(<%= asset_path 'zoom.png' %>);
 	background-position: center center;
 	background-repeat: no-repeat;
 	opacity: 0;
@@ -839,7 +839,7 @@ ul.social-link li a i{
 	height:35px;
 	border:none;
 	text-indent:100%;
-	background:url(/images/totop.png) no-repeat left top;
+	background:url(<%= asset_path 'totop.png' %>) no-repeat left top;
 }
 
 #toTop:after {
@@ -851,7 +851,7 @@ ul.social-link li a i{
 
 
 #toTopHover {
-	background:url(/images/totop.png) no-repeat left -35px;
+	background:url(<%= asset_path 'totop.png' %>) no-repeat left -35px;
 	width:35px;
 	height:35px;
 	display:block;
