@@ -11,11 +11,12 @@
 				      	<% if params[:type] == "site" %>
 				      	  <h2>Заказать сайт</h2>
 				      	<% end %>
-				      	<% if params[:type] == "seo" %>
-				      	  <h2>Заказать продвижение сайта</h2>
+				      	<% if params[:type] == "react" %>
+				      	  <h2>Заказать разработку на React.js</h2>
 				      	<% end %>
-				      	<% if params[:type] == "support" %>
-				      	  <h2>Заказать поддержку сайта</h2>
+				      	<% if params[:type] == "learn" %>
+				      	  <h2>Записаться на обучение</h2>
+				      	  <p><b>Укажите, желаемое время, уровень (начальный, продвинутый) и курс (верстка, Ruby On Rails, React.js, JavaScript)</b></p>
 				      	<% end %>					      			      	
 				      <% else %>
 				        <h2><%= t(:step2_title) %></h2>
