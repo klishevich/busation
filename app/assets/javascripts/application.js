@@ -22,4 +22,4 @@
 //= require counterup/jquery.counterup
 //= require countdown/jquery.countdown
 //= require uitotop/jquery.ui.totop
-//= require main
+//= require main .
