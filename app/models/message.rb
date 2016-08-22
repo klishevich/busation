@@ -13,7 +13,7 @@ class Message < ActiveRecord::Base
   end
 
   def check_spam
-    if body.include? "href" or body.include? I18n.t('prostitut') or body.include? I18n.t('metro')
+    if body.include? "href" or body.include? I18n.t('metro')
       errors.add(:body, :spam)
     end
   end
