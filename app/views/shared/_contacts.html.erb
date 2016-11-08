@@ -1,37 +1,31 @@
 <div class="container">
-
 	<div class="section-heading">
 		<h2>Контакты</h2>
 	</div>
-	
 	<div class="row">
-		<!-- contact form -->
 		<div class="col-md-6 col-sm-6">
 			<div class="contact-form  wow fadeInLeft showdelay2">
-			<%= render 'messages/form' %>
-			<div class="clearfix"></div>
+				<%= render 'messages/form' %>
+				<div class="clearfix"></div>
 			</div>
 		</div>
-		<!-- ./contact form -->
-		
-		<!-- address -->
 		<div class="col-md-6 col-sm-6">
 			<div class="address  wow fadeInRight showdelay2">
 				<h3>Связь с нами</h3>
 				<ul class="unstyled">
 					<li>ООО "Бизнес-Оптимизация"</li>
-					<li itemprop="email"><i class="fa fa-envelope"></i>info@busation.com</li>
+					<li itemprop="email"><i class="fa fa-envelope"></i><a href="mailto:info@busation.com">info@busation.com</a></li>
 					<li><i class="fa fa-skype"></i>Skype: busation</li>
 					<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 						<li><i class="fa fa-phone"></i><span itemprop="addressLocality">Москва</span>: <span itemprop="telephone">+7 916 592 6645</span>
 						</li>
 					</span>
 					<li><i class="fa fa-phone"></i>Санкт-Петербург: +7 812 934 8899</li>
-		            <li><i class="fa fa-hand-o-right"></i><span itemprop="url">www.busation.com</span>
-		            </li> 							
+					<li><i class="fa fa-hand-o-right"></i><span itemprop="url">www.busation.com</span>
+					</li> 							
 				</ul>
-				<div id="rekv-modal-block">
-					<a href="#" data-toggle="modal" data-target="#rekv-modal" style="color:#fff">Смотреть реквизиты</a>
+				<div id="rekv">
+					<a href="/r">Смотреть реквизиты</a>
 				</div>
 				<div id="subscribe-block">
 					<a href="/subscribe" class="btn btn-custom btn-lg">Подписаться на новости компании</a>
@@ -41,37 +35,9 @@
 					<li><a href="https://twitter.com/busation"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="https://www.linkedin.com/in/busation"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="https://www.youtube.com/user/busation/videos"><i class="fa fa-youtube"></i></a></li>
-
+					<li><a href="https://www.facebook.com/klishevich"><i class="fa fa-facebook"></i></a></li>
 				</ul>
 			</div>
 		</div>
-		<!-- ./address -->
-		
 	</div>
-	<!-- /row -->
-						
 </div>
-<!-- modal -->					
-<div class="modal fade" id="rekv-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelr" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-	<div class="modal-content">
-	  <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h2 class="modal-title" id="myModalLabelr">Реквизиты</h2>
-	  </div>
-	  <div class="modal-body">								
-		<ul class="unstyled">
-			<li itemprop="name">ООО "Бизнес-Оптимизация"</li>
-			<li>Юр. адрес: 630058, г. Новосибирск, ул. Русская, 39</li>
-			<li>ИНН/КПП: 5408290560 / 540801001</li>
-			<li>ОГРН: 1115476126590</li>
-			<li>Банк: ОАО "АЛЬФА-БАНК", г. Москва</li>
-			<li>Расчетный счет: 40702810302880000716</li>
-			<li>Кор. счет: 30101810200000000593</li>
-			<li>БИК: 044525593</li>
-		</ul>
-	 </div>
-	</div>
-  </div>
-</div>
-<!-- ./modal -->

@@ -12,5 +12,6 @@ Rails.application.routes.draw do
 
   get 'bpm' => 'static_pages#bpm'
   get 'ok' => 'messages#ok'
+  get 'r' => 'static_pages#rekvizity'
 
 end

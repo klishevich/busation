@@ -6,4 +6,7 @@ class StaticPagesController < ApplicationController
   def bpm
   	@message = Message.new
   end
+
+  def rekvizity
+  end
 end
