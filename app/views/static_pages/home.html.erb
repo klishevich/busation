@@ -1,6 +1,6 @@
-<% provide(:title, "Веб-разработка на Ruby on Rails и React.js в Москве от компании Бизнес-Оптимизация, ООО") %>
-<% provide(:description, "Профессионально разрабатываем веб-проекты на Ruby on Rails, делаем SPA и удобные пользовательские интерфейсы UI на React.js в Москве, обучаем") %>
-<% provide(:keywords, "Веб-разработка, Ruby on Rails, React.js, пользовательские интерфейсы, UI, Москва, обучение") %>
+<% provide(:title, "Разработка Ruby on Rails и Android в Москве от компании Бизнес-Оптимизация, ООО") %>
+<% provide(:description, "Профессионально разрабатываем веб-проекты на Ruby on Rails и приложения под Android, делаем SPA и удобные пользовательские интерфейсы UI на React.js в Москве") %>
+<% provide(:keywords, "Веб-разработка, Ruby on Rails, Android, React.js, пользовательские интерфейсы, UI, Москва") %>
 
 <!-- Меню -->
 <span itemscope itemtype="http://schema.org/LocalBusiness">
@@ -66,20 +66,20 @@
 			</div>
 			<div class="item">
 				<div class="slider-caption"> 
+					<i class="fa fa-android"></i>
+					<h1>Разработка под Android</h1>
+					<p>Разработка мобильных нативных приложений под Android, интеграция с сервисами Google Maps API, Google Cloud Messaging, Firebase, Facebook/Twitter.</p>	
+					<a href="https://youtu.be/J3JKfTqVA5I" class="btn btn-custom btn-lg" target="_blank">Смотреть видео</a>	
+				</div>
+			</div>	
+			<div class="item">
+				<div class="slider-caption"> 
 					<i class="fa fa-paper-plane-o"></i>
 					<h1>Пилим React.js (UI, SPA)</h1>
 					<p>Создаем удобные пользовательские интерфейсы на React.js (Node.js, Redux, React-Router). Делаем Single Page Application, интеграция с любым backend-ом</p>	
 					<a href="https://youtu.be/J3JKfTqVA5I" class="btn btn-custom btn-lg" target="_blank">Смотреть видео</a>	
 				</div>
-			</div>						
-			<div class="item">
-				<div class="slider-caption"> 
-					<i class="fa fa-book"></i>
-					<h1>Обучаем веб-разработке</h1>
-					<p>Проводим Skype-обучение профессиональной веб-разработке (HTML, jQuery, CSS, Ruby on Rails, React.js, Linux, DevOps). Начальный и продвинутый уровень!</p>	
-					<a href="https://youtu.be/J3JKfTqVA5I" class="btn btn-custom btn-lg" target="_blank">Смотреть видео</a>	
-				</div>
-			</div>			  						
+			</div>								  						
 		  </div>
 
 		  <!-- Controls -->
@@ -114,21 +114,21 @@
 					<h3>Разработка на Ruby on Rails</h3>
 					<p>Создание веб-проектов на <b>Ruby on Rails</b>. Корпоративные сайты, интернет-магазины (<b>Spree</b>), API-приложения, <a href="/bpm"><u>BPM-системы</u></a>, интеграции (<b>InSales, Slack, Facebook, Twitter, Shopify</b> и др.), индивидуальный дизайн.</p>	
 				</div>
-			</div>						
+			</div>
 			<div class="col-md-4 col-sm-4">
 				<div class="icon-box text-center wow fadeInUp showdelay2">
+					<i class="fa fa-android"></i>
+					<h3>Разработка по Android</h3>
+					<p>Разработка нативных приложений на платформе <b>Android</b> более 3-х лет. Опыт работы с сервисами <b>Google Maps API, Google Cloud Messaging, Firebase, Facebook/Twitter</b>.</p>
+				</div>
+			</div>				
+			<div class="col-md-4 col-sm-4">
+				<div class="icon-box text-center wow fadeInRight showdelay2">
 					<i class="fa fa-paper-plane-o"></i>
 					<h3>Разработка на React.js</h3>
 					<p>Проектирование и разработка динамичных и удобных пользовательских web-интерфейсов (<b>UI</b>) на <b>React.js</b>. Создание Single Page Applications (<b>SPA</b>) с использованием <b>React, Redux, React-Router, Node.js.</b></p>
 				</div>
-			</div>					
-			<div class="col-md-4 col-sm-4">
-				<div class="icon-box text-center wow fadeInRight showdelay2">
-					<i class="fa fa-book"></i>
-					<h3>Обучение веб-разработке</h3>
-					<p>Профессиональное обучение через Skype: верстка (<b>HTML, CSS</b>), серверная разработка (<b>Ruby on Rails, Node.js</b>), клиентская (<b>JavaScript, React.js</b>), настройка Linux-серверов (<b>Apache, Nginx, Unicorn, Puma</b>), <b>DevOps</b> (автотесты, обновление)</p>
-				</div>
-			</div>						
+			</div>											
 		</div>
 		<!-- ./row -->
 		
@@ -301,6 +301,18 @@
 			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
 				<div class="team-box">
 					<div class="team-image">
+						<%= image_tag("team6.jpg", class: "img-circle") %>
+					</div>
+					<div class="team-info">
+						<h3>Вадим</h3>
+						<b>Android-разработчик</b>
+						<p>Разработка на платформе Android более 3-х лет (Google Maps API, Google Cloud Messaging, Firebase, Facebook/Twitter).</p>
+					</div>
+				</div>													
+			</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<div class="team-box">
+					<div class="team-image">
 						<%= image_tag("team3.jpg", class: "img-circle") %>					
 					</div>
 					<div class="team-info">
@@ -310,21 +322,8 @@
 					</div>
 				</div>													
 			</div>
-			
-			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
-				<div class="team-box">
-					<div class="team-image">
-						<%= image_tag("team4.jpg", class: "img-circle") %>
-						
-					</div>
-					<div class="team-info">
-						<h3>Максим</h3>
-						<b>Руководитель проектов</b>
-						<p>Встречаюсь с клиентами в Москве, общаюсь, обучаю, помогаю найти оптимальное решение. Обеспечиваю исполнение задач в срок.</p>
-					</div>
-				</div>													
-			</div>
-
+		</div>
+		<div class="row">
 			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
 				<div class="team-box">
 					<div class="team-image">
@@ -338,6 +337,19 @@
 						<ul class="team-social">
 							<li></li>
 						</ul>
+					</div>
+				</div>													
+			</div>
+			<div class="col-md-6 col-sm-6 wow fadeInUp showdelay2">
+				<div class="team-box">
+					<div class="team-image">
+						<%= image_tag("team4.jpg", class: "img-circle") %>
+						
+					</div>
+					<div class="team-info">
+						<h3>Максим</h3>
+						<b>Руководитель проектов</b>
+						<p>Встречаюсь с клиентами в Москве, общаюсь, обучаю, помогаю найти оптимальное решение. Обеспечиваю исполнение задач в срок.</p>
 					</div>
 				</div>													
 			</div>
@@ -362,10 +374,10 @@
 			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
 				<div itemscope itemtype="http://schema.org/Product" class="price-box text-center">	
 					<div class="price-title">
-						<div itemprop="name">РАЗРАБОТКА САЙТА</div>
+						<div itemprop="name">Разработка Web-приложения</div>
 						<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 							<span>от 30 т.р.</span>
-						    <meta itemprop="price" content="30000.00">
+						    <meta itemprop="price" content="40000.00">
 						    <meta itemprop="priceCurrency" content="RUB">
 						    <link itemprop="availability" href="http://schema.org/InStock">
 						</span>
@@ -379,11 +391,32 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
+				<div itemscope itemtype="http://schema.org/Product" class="price-box text-center">	
+					<div class="price-title">
+						<div itemprop="name">Android-разработка</div>
+						<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+							<span>от 60 т.р.</span>
+						    <meta itemprop="price" content="60000.00">
+						    <meta itemprop="priceCurrency" content="RUB">
+						    <link itemprop="availability" href="http://schema.org/InStock">
+						</span>
+					</div>
+					<ul class="unstyled price-list">
+						<li itemprop="description">Разработка нативного приложения под Android, минимальная цена</li>
+						<li>Стоимость зависит от функционала и от количества интеграций</li>
+					</ul>
+					<div class="price-action">
+						<a href="/messages/new?type=android" class="btn btn-custom">Заказать</a>	
+					</div>
+				</div>
+			</div>
 								
 			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
 				<div itemscope itemtype="http://schema.org/Product" class="price-box text-center">	
 					<div class="price-title">
-						<div itemprop="name">ИНТЕГРАЦИЯ, МОБИЛЬНЫЕ API</div>
+						<div itemprop="name">Интеграции, Мобильные API</div>
 						<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 							<span>от 30 т.р.</span>
 						    <meta itemprop="price" content="30000.00">
@@ -404,10 +437,10 @@
 			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
 				<div itemscope itemtype="http://schema.org/Product" class="price-box text-center">	
 					<div class="price-title">
-						<div itemprop="name">РАЗРАБОТКА UI React.js</div>
+						<div itemprop="name">Разработка UI React.js</div>
 						<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-							<span>от 10 т.р.</span>
-						    <meta itemprop="price" content="10000.00">
+							<span>от 30 т.р.</span>
+						    <meta itemprop="price" content="30000.00">
 						    <meta itemprop="priceCurrency" content="RUB">
 						    <link itemprop="availability" href="http://schema.org/InStock">
 						</span>
@@ -418,27 +451,6 @@
 					</ul>
 					<div class="price-action">
 						<a href="/messages/new?type=react" class="btn btn-custom">Заказать</a>	
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-3 col-sm-3 wow fadeInUp showdelay2">
-				<div itemscope itemtype="http://schema.org/Product" class="price-box text-center">	
-					<div class="price-title">
-						<div itemprop="name">ОБУЧЕНИЕ ВЕБ-РАЗРАБОТКЕ</div>
-						<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-							<span>1 т.р./час</span>
-						    <meta itemprop="price" content="5000.00">
-						    <meta itemprop="priceCurrency" content="RUB">
-						    <link itemprop="availability" href="http://schema.org/InStock">
-						</span>
-					</div>
-					<ul class="unstyled price-list">
-						<li itemprop="description">Обучение Ruby on Rails, React.js, JavaScript, верстка (HTML, CSS)</li>
-						<li>Начальный и продвинутый уровни. Обучение через Skype</li>
-					</ul>
-					<div class="price-action">
-						<a href="/messages/new?type=learn" class="btn btn-custom">Записаться</a>	
 					</div>
 				</div>
 			</div>
