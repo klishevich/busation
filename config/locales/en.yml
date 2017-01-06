@@ -121,7 +121,7 @@ en:
     messages:
       accepted: must be accepted
       blank: can't be blank
-      spam: "не должно содержать строку href"
+      spam: "не должно содержать строку href или http://"
       present: must be blank
       confirmation: ! "doesn't match %{attribute}"
       empty: can't be empty
@@ -231,7 +231,7 @@ en:
         name: "Ваше имя"
         email: "Ваш email"
         phone: "Ваш телефон"
-        body: "Сообщение"
+        body: "Сообщение (только текст без ссылок http)"
   hello: "Hello world"
   step2_title: "Отправка сообщения"
   save: "Отправить"
