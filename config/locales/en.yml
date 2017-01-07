@@ -121,7 +121,7 @@ en:
     messages:
       accepted: must be accepted
       blank: can't be blank
-      spam: "не должно содержать строку href или http://"
+      spam: "не должно содержать ссылок на сайты"
       present: must be blank
       confirmation: ! "doesn't match %{attribute}"
       empty: can't be empty
