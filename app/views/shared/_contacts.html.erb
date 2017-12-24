@@ -5,16 +5,9 @@
 	<div class="row">
 		<div class="col-md-6 col-sm-6">
 			<div class="contact-form  wow fadeInLeft showdelay2">
-				<%= render 'messages/form' %>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-		<div class="col-md-6 col-sm-6">
-			<div class="address  wow fadeInRight showdelay2">
-				<h3>Связь с нами</h3>
 				<ul class="unstyled">
 					<li>ООО "Бизнес-Оптимизация"</li>
-					<li itemprop="email"><i class="fa fa-envelope"></i><a href="mailto:info@busation.com">info@busation.com</a></li>
+					<li itemprop="email"><i class="fa fa-envelope"></i><a class="contact" href="mailto:info@busation.com">info@busation.com</a></li>
 					<li><i class="fa fa-skype"></i>Skype: busation</li>
 					<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 						<li><i class="fa fa-phone"></i><span itemprop="addressLocality">Москва</span>: <span itemprop="telephone">+7 916 592 6645</span>
@@ -24,11 +17,12 @@
 					<li><i class="fa fa-hand-o-right"></i><span itemprop="url">www.busation.com</span>
 					</li> 							
 				</ul>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-6">
+			<div class="address  wow fadeInRight showdelay2">
 				<div id="rekv">
-					<a href="/r">Смотреть реквизиты</a>
-				</div>
-				<div id="subscribe-block">
-					<a href="/subscribe" class="btn btn-custom btn-lg">Подписаться на новости компании</a>
+					<a href="/r" class="btn btn-custom btn-lg">Смотреть реквизиты</a>
 				</div>
 				<h3>Мы в соц. сетях</h3>
 				<ul class="social-link">
