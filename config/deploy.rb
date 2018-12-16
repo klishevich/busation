@@ -1,7 +1,7 @@
 require "bundler/capistrano"
 require "rvm/capistrano"
 
-server "jupiter.j123.ru", :web, :app, :db, primary: true
+server "jupiter.busation.ru", :web, :app, :db, primary: true
 
 set :application, "busation"
 set :user, "mike"
